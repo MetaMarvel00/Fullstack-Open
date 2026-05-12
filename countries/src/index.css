@@ -1,0 +1,12 @@
+body {
+  margin: 1rem;
+  font-family: system-ui, sans-serif;
+}
+
+.country-block {
+  margin-top: 1rem;
+}
+
+.weather {
+  margin-top: 0.75rem;
+}
