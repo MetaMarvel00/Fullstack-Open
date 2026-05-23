@@ -19,9 +19,28 @@ Submit this repository to the [Full Stack Open submission system](https://studie
 | `phonebook/` | 2.6–2.17 (forms, `json-server`, axios, CRUD, notifications) |
 | `countries/` | 2.18–2.20 (REST countries + OpenWeatherMap via env) |
 
+## Part 3 (started)
+
+| Folder | Exercises / role |
+|--------|------------------|
+| `phonebook-backend/` | 3.1–3.8 — Express API at `/api/persons`, `/info`, morgan logging |
+
+Use **either** `phonebook-backend` **or** `phonebook`’s `json-server` on port **3001**, not both at once. For a full-stack run with the React phonebook, start the **Express** backend, then the Vite app (the frontend is configured for `/api/persons`).
+
+```bash
+cd phonebook-backend
+npm install
+npm run dev
+```
+
+```bash
+cd phonebook
+npm run dev
+```
+
 ### Run Part 2 apps locally
 
-**Phonebook** — needs the API on port 3001 in a second terminal:
+**Phonebook (Part 2 only, json-server)** — optional if you are not using `phonebook-backend` yet:
 
 ```bash
 cd phonebook
